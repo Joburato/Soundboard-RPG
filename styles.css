@@ -1,0 +1,86 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 3vmin;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 0.5vw;
+    grid-row-gap: 1vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('Imagens/FUNDO.jpg');
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+h{
+    padding: 1vh;
+}
+
+#Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(56, 121, 54);
+    color: white;
+    width: 32vw;
+    height: 30vh;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(4, 7.3vw);
+    grid-row-gap: 1vh;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 17px;
+    width: 6.8vw;
+    height: 10.5vh;
+    background-color: rgba(0, 16, 44, 0.555);
+    border: 0;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(0, 16, 44, 0.781);
+    size-adjust: 10%;
+    transform:scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    transition: 100ms;
+}
+
+button:active{
+    background-color: rgba(24, 53, 104, 0.781);
+}
+
+img{
+    width: auto;
+    height: 85%;
+}
+
+@media (orientation: portrait), (max-aspect-ratio: 1/1) {
+  body {
+    grid-template-columns: 100%;
+    align-items: center;
+  }
+
+  #Container{
+    width: 95vw;
+    }
+
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(4, 22vw);
+        grid-row-gap: 1vh;
+    }
+
+    button{
+        width: 20vw;
+    }
+}
