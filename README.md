@@ -1,6 +1,6 @@
 # Soundboard-RPG
 
-Um soundboard interativo desenvolvido para auxiliar na imersão de sessões de RPG, com foco em temáticas futuristas ou Cyberpunk. O projeto organiza efeitos sonoros por personagens e categorias ambientais.
+Um soundboard interativo desenvolvido para auxiliar na imersão de sessões de RPG. O projeto organiza efeitos sonoros por personagens e categorias ambientais.
 
 ## 🔗 Demonstração
 
@@ -8,7 +8,7 @@ Acesse a versão online: [https://joburato.github.io/Soundboard-RPG/](https://jo
 
 ## 🚀 Funcionalidades
 
-*   **Categorias de Áudio:** Sons organizados por personagens (Zoe, Lucy, Casper, Bushido, Ivad, B3NS0N) e tipos (Gerais, Inimigos, Ambientes).
+*   **Categorias de Áudio:** Sons organizados por personagens e tipos (Gerais, Inimigos, Ambientes).
 *   **Variedade de Sons:** Inclui efeitos de combate (tiros, espadas, explosões), habilidades (hack, sandevistan) e ambientação.
 *   **Design Responsivo:** Interface adaptável que funciona bem em desktops e dispositivos móveis.
 *   **Feedback Visual:** Animações simples ao interagir com os botões.
